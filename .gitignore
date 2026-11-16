@@ -1,0 +1,49 @@
+# Pasos personales / notas
+pasos.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos temporales y cachés geoespaciales
+*.aux.xml
+*.ovr
+*.qmd
+*.gpkg-wal
+*.gpkg-shm
+
+#Data raw
+data/*
+!data/README.md
+
+notebooks/*
+!notebooks/01_identify_area_polygon.ipynb
+!notebooks/03_mapbiomas_review.ipynb
+
+outputs/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
